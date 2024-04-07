@@ -9,7 +9,7 @@ from langchain.chains import RetrievalQA
 import os
 
 app = Flask(__name__)
-CORS(app, resources={r"/query": {"origins": "https://soft-belekoy-df3409.netlify.app/"}})
+#CORS(app, resources={r"/query": {"origins": "https://soft-belekoy-df3409.netlify.app/"}})
 
 # Set up Hugging Face token
 HF_token = "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"
